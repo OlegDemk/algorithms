@@ -4,12 +4,15 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
+../first.c \
 ../main.c 
 
 OBJS += \
+./first.o \
 ./main.o 
 
 C_DEPS += \
+./first.d \
 ./main.d 
 
 
